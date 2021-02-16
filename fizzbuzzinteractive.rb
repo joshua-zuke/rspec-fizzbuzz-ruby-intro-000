@@ -1,9 +1,9 @@
 def fizzbuzz(input)
-  if input % 3==0 && input % 5==0
+  if input==3
     puts "FizzBuzz"
-  elsif input %5 ==0
+  elsif input==5
     puts "Buzz"
-  elsif input % 3==0
+  else
     puts "Fizz"
   end
 end
