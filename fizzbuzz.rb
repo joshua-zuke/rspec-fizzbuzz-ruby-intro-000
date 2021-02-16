@@ -3,7 +3,7 @@ def fizzbuzz(input)
     return "Fizz" #Second mistake was putting "puts" and not "return" meaning I got nil in all cases.
   elsif input %5 ==0
     return "Buzz"
-  elsif input % 3 && input % 5==0
+  elsif input %15==0
     return "FizzBuzz"
   end
 end #Third mistake was not having an "end" here to end the definition in addition to conditional end.
