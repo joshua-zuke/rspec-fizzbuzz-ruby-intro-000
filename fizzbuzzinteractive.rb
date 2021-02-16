@@ -6,13 +6,8 @@ def fizzbuzz(input)
   elsif input % 3==0
     return "Fizz"
   end
-end #Third mistake was not having an "end" here to end the definition in addition to conditional end.
+end
 
-# Note: Originally I cheated by hardcoding values like if input = 3 return Fizz.
-# That means that fizzbuzz(6) would return nil even though it's divisible by 3.
-# After I adjusted the code to actually divide the input number, I got "Fizz" where I should have gotten "FizzBuzz".
-# That's because 15 IS divisible by 3, and I had that as my first line, so it was returning Fizz.
-# By switching "FizzBuzz" to the first "if", the error resolved.
-
-# Still unsure of the math here – 3/3 is not ==0 it's ==1, so why would "fizzbuzz(3)" return Fizz? I guess the % symbol
-# doesn't mean divide? I think it literally means "is divisble by"
+puts "Let's play Fizzbuzz!"
+puts "Enter a number"
+input = gets.chomp
