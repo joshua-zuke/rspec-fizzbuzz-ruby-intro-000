@@ -13,3 +13,5 @@ end #Third mistake was not having an "end" here to end the definition in additio
 # After I adjusted the code to actually divide the input number, I got "Fizz" where I should have gotten "FizzBuzz".
 # That's because 15 IS divisible by 3, and I had that as my first line, so it was returning Fizz.
 # By switching "FizzBuzz" to the first "if", the error resolved.
+
+# Still unsure of the math here – 3/3 is not ==0 it's ==1, so why would "fizzbuzz(3)" return Fizz?
