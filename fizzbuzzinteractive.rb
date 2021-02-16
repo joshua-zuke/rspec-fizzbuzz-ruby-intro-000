@@ -1,6 +1,6 @@
 def fizzbuzz(input)
-  if input % 3==0 && input % 5==0 # First mistake I made was using "=" and not "=="
-    return "FizzBuzz" #Second mistake was putting "puts" and not "return" meaning I got nil in all cases.
+  if input % 3==0 && input % 5==0
+    return "FizzBuzz"
   elsif input %5 ==0
     return "Buzz"
   elsif input % 3==0
