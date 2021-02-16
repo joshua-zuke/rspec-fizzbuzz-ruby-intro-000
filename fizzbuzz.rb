@@ -5,6 +5,7 @@ def fizzbuzz(input)
     return "Buzz"
   elsif input % 3==0
     return "Fizz"
+    puts "Fizz"
   end
 end #Third mistake was not having an "end" here to end the definition in addition to conditional end.
 
