@@ -12,3 +12,4 @@ puts "Let's play Fizzbuzz!"
 puts "Enter a number"
 input = gets.chomp
 fizzbuzz(input)
+
