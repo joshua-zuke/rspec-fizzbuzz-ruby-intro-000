@@ -10,4 +10,6 @@ end #Third mistake was not having an "end" here to end the definition in additio
 
 # Note: Originally I cheated by hardcoding values like if input = 3 return Fizz.
 # That means that fizzbuzz(6) would return nil even though it's divisible by 3.
-# After I adjusted the code to actually divide the input number 
+# After I adjusted the code to actually divide the input number
+
+fizzbuzz(6)
