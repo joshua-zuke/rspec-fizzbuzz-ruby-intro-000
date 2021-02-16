@@ -15,4 +15,4 @@ end #Third mistake was not having an "end" here to end the definition in additio
 # By switching "FizzBuzz" to the first "if", the error resolved.
 
 # Still unsure of the math here – 3/3 is not ==0 it's ==1, so why would "fizzbuzz(3)" return Fizz? I guess the % symbol
-# doesn't mean divide?
+# doesn't mean divide? I think it literally means "is divisble by"
